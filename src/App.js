@@ -1,14 +1,14 @@
 import React from 'react';
-import GreatestNumberFinder from './GreatestNumberFinder';
+import ScoreCard from './ScoreCard';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Find the Greatest Number</h1>
+        <h1>Developed By Komal Laddha</h1>
       </header>
       <main>
-        <GreatestNumberFinder />
+        <ScoreCard />
       </main>
     </div>
   );
