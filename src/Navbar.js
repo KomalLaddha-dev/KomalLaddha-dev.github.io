@@ -6,14 +6,15 @@ function Navbar() {
     <nav className="navbar">
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/Home">Home</Link>
         </li>
         <li>
-          <Link to="/about">About Us</Link>
+          <Link to="/AboutMe">About Us</Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="/Contact">Contact</Link>
         </li>
+        <h1 style={{ color: 'white', textAlign: 'right', marginRight: '10px' }}>Developed By Komal Laddha</h1>
       </ul>
     </nav>
   );
