@@ -4,6 +4,7 @@ import Navbar from './NavBar'
 import Home from './Home';
 import AboutMe from './AboutMe';
 import Contact from './Contact';
+import Number from './Number';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/Home" element={<Home />} />
               <Route path="/AboutMe" element={<AboutMe />} />
               <Route path="/Contact" element={<Contact />} />
+          <Route path="/Number" element={<Number />} />
           </Routes>
         </div>
       </div>

@@ -14,6 +14,9 @@ function Navbar() {
         <li>
           <Link to="/Contact">Contact</Link>
         </li>
+        <li>
+          <Link to="/Number">Game</Link>
+        </li>
         <h1 style={{ color: 'white', textAlign: 'right', marginRight: '10px' }}>Developed By Komal Laddha</h1>
       </ul>
     </nav>

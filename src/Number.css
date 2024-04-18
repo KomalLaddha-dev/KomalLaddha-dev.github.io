@@ -1,0 +1,64 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  input[type="number"] {
+    font-size: 16px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .game-over-message {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #ff5722;
+  }
+  
+  .rounds-score-info {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .button-group {
+    margin-top: 10px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .container {
+      max-width: 90%;
+    }
+  }
+  
+  .feedback-message {
+    font-size: 16px;
+    color: #ff5722;
+    margin-top: 5px;
+  }  
