@@ -99,11 +99,13 @@ function Number() {
           ) : (
             <div>
               <h2>New Round</h2>
+              <div>
+                {message && <p className="feedback-message">{message}</p>}
+              </div>
               {!playAgain ? (
                 <div>
                   <input type="number" value={userInput} onChange={handleInputChange} onKeyDown={handleKeyDown} />
   <button onClick={playRound}>Guess</button>
-  {message && <p className="feedback-message">{message}</p>}
                 </div>
               ) : (
                 <div>
